@@ -10,65 +10,68 @@
   <title>Gllacy Shop</title>
 </head>
 <body>
-  <header>
-    <div class="layout-centering">
-      <nav class="main-nav">
-        <ul class="site-nav">
-          <li class="logo">
-            <a href="index.html"><img src="img/logo.svg" alt="Gllacy Shop"></a>
-          </li>
-          <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="#">Доставка и оплата</a></li>
-          <li><a href="#">О Компании</a></li>
-        </ul>
-        <ul class="user-nav">
-          <li class="main-search">
-            <button class="user-nav_btn"></button>
-          </li>
-          <li class="user-panel">
-            <a href="#" class="enterance user-nav_btn">Вход</a>
-          </li>
-          <li class="cart">
-            <a href="#" class="status user-nav_btn">Пусто</a>
-          </li>
-        </ul>
-      </nav>
+  <header class="layout-centering">
+    <nav class="main-nav">
+      <ul class="site-nav">
+        <li class="logo">
+          <a href="index.html"><img src="img/logo.svg" alt="Gllacy Shop"></a>
+        </li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="#">Доставка и оплата</a></li>
+        <li><a href="#">О Компании</a></li>
+      </ul>
+      <ul class="user-nav">
+        <li class="main-search">
+          <button class="user-nav_btn"></button>
+        </li>
+        <li class="user-panel">
+          <a href="#" class="enterance user-nav_btn">Вход</a>
+        </li>
+        <li class="cart">
+          <a href="#" class="status user-nav_btn">Пусто</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="contact-info-wrapper">
       <div class="contact-info">
-        <p>
-          С 10 до 20, ежедневно
-          <b>8 812 450-25-25</b>
-        </p>
+        <p>С 10 до 20, ежедневно</p>
+        <b>8 812 450-25-25</b>
       </div>
     </div>
-
   </header>
 
   <main>
-    <h1>Магазин мороженого Gllacy Shop</h1>
+    <section class="cones-sets layout-centering">
+      <h1 class="visually-hidden">Магазин мороженого Gllacy Shop</h1>
 
-    <div class="cones-sets slider">
-      <ul class="list">
-        <li class="set">
-          <b>Крем-брюле и пломбир с малиновым джемом</b>
-          <button class="to-cart_btn btn">Давайте оба!</button>
-        </li>
-        <li class="set">
-          <b>Крем-брюле и пломбир с малиновым джемом</b>
-          <button class="to-cart_btn btn">Давайте оба!</button>
-        </li>
-        <li class="set">
-          <b>Крем-брюле и пломбир с малиновым джемом</b>
-          <button class="to-cart_btn btn">Давайте оба!</button>
-        </li>
-      </ul>
-      <div class="slide-buttons">
-        <span>o</span>
-        <span>o</span>
-        <span>o</span>
+      <div class="slider">
+        <ul class="list">
+          <li class="set">
+            <b class="sets-name">Крем-брюле и пломбир<br>с малиновым джемом</b>
+            <button class="to-cart_btn btn">Давайте оба!</button>
+          </li>
+          <!--        <li class="set">-->
+          <!--          <b>Крем-брюле и пломбир с малиновым джемом</b>-->
+          <!--          <button class="to-cart_btn btn">Давайте оба!</button>-->
+          <!--        </li>-->
+          <!--        <li class="set">-->
+          <!--          <b>Крем-брюле и пломбир с малиновым джемом</b>-->
+          <!--          <button class="to-cart_btn btn">Давайте оба!</button>-->
+          <!--        </li>-->
+        </ul>
+        <div class="slide-buttons-wrapper">
+          <div class="slide-buttons">
+            <span class="slide-button slide-button-1"></span>
+            <span class="slide-button slide-button-2"></span>
+            <span class="slide-button slide-button-3"></span>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <section class="gifts">
+
+    <section class="gifts layout-centering">
       <h2>Дарим подарки при покупке!</h2>
 
       <ul class="list">
@@ -90,7 +93,7 @@
       </ul>
     </section>
 
-    <section class="bestsellers">
+    <section class="bestsellers layout-centering">
       <h2>Хиты продаж</h2>
 
       <ul class="list">
@@ -141,7 +144,7 @@
       </ul>
     </section>
 
-    <section class="advantages">
+    <section class="advantages layout-centering">
       <h2>Наши преимущества</h2>
 
       <b>
@@ -175,7 +178,7 @@
       </ul>
     </section>
 
-    <article class="blog-news">
+    <article class="blog-news layout-centering">
       <h2>Новое в нашем блоге</h2>
       <p>
         10 способов сервировки
@@ -184,7 +187,7 @@
       </p>
     </article>
 
-    <section class="email-subscription">
+    <section class="email-subscription layout-centering">
       <h2>Подписка на email-рассылку</h2>
       <p>
         Подпишитесь на нашу сладкую рассылку и
@@ -223,7 +226,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="layout-centering">
     <div class="social">
       <ul>
         <li><a class="twitter" href="#"></a></li>
